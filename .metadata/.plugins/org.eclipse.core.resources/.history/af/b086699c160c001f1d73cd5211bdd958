@@ -1,0 +1,9 @@
+package com.spring10.service;
+
+public interface SampleService {
+	public List<Sample> getSampleList();
+	public Sample getSample(int num);
+	public void insSample(Sample sample);
+	public void upSample(Sample sample);
+	public void delSample(Sample sample);
+}

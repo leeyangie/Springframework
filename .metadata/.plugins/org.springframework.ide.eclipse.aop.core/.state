@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring11"/>
+<aop-project name="spring12"/>
+<aop-project name="spring13"/>
+<aop-project name="spring14"/>
+</aop-reference-model>

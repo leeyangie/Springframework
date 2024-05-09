@@ -1,0 +1,37 @@
+package com.spring11.controller;
+
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.spring11.dto.Sample;
+import com.spring11.myapp.HomeController;
+import com.spring11.service.SampleService;
+
+@Controller
+@RequestMapping("/sample/")
+public class SampleController {
+	
+	private static final Logger log = LoggerFactory.getLogger(SampleController.class);
+	
+	@Autowired
+	private SampleService sampleService;
+	
+	@GetMapping("list.do")
+	public String getSampleList(Model model) {
+		List<Sample> list = sampleService.getSampleList();
+		
+		for(Sample sample : list) {
+			log.info(sample.toString());
+		}
+		
+		model.addAttribute("list", list);
+		return "sample/sampleList";
+	}
+}

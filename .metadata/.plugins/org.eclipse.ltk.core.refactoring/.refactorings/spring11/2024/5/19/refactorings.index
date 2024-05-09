@@ -1,0 +1,12 @@
+1715047779392	Rename package 'test'
+1715048516658	Rename package 'com.spring10.controller'
+1715048521996	Rename package 'com.spring10.dao'
+1715048528047	Rename package 'com.spring10.dto'
+1715048533459	Rename package 'com.spring10.myapp'
+1715048537827	Rename package 'com.spring10.service'
+1715048541455	Rename package 'com.spring10.test'
+1715060178369	Move 'injectionContext.xml' to 'resources'
+1715062226909	Rename type 'Pecil'
+1715126840315	Move files
+1715126943498	Delete element
+1715128513224	Rename resource 'injectionAnnoation.xml'

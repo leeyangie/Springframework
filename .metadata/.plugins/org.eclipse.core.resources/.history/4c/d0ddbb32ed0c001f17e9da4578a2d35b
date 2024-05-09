@@ -1,0 +1,16 @@
+package com.spring11.test;
+
+import javax.inject.Qualifier;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+import com.spring11.dao.SampleDAO;
+
+public class TestQualifier {
+
+	@Autowired
+	@Qualifier
+	
+	private SampleDAO sampleDAO;
+}

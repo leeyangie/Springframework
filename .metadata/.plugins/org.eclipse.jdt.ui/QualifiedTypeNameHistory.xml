@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.spring1.dto.sample"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.javassist.tools.reflect.Sample"/>
+    <fullyQualifiedTypeName name="com.spring4.dto.Sample"/>
+    <fullyQualifiedTypeName name="com.azul.tooling.in.Model"/>
+    <fullyQualifiedTypeName name="com.spring5.dto.Sample"/>
+    <fullyQualifiedTypeName name="org.apache.maven.model.Model"/>
+    <fullyQualifiedTypeName name="com.spring6.dto.Sample"/>
+    <fullyQualifiedTypeName name="com.spring10.dto.Sample"/>
+    <fullyQualifiedTypeName name="com.spring11.dto.Shop"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.spring11.dto.Warehouse"/>
+    <fullyQualifiedTypeName name="com.spring11.test.InjectionAnnotation1"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.spring11.test.InjectionJavaTest1"/>
+    <fullyQualifiedTypeName name="javax.inject.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="javax.inject.Inject"/>
+    <fullyQualifiedTypeName name="com.spring11.test.TestQualifier"/>
+    <fullyQualifiedTypeName name="com.spring11.test.TestResource"/>
+    <fullyQualifiedTypeName name="com.spring11.dao.SampleDAO"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+    <fullyQualifiedTypeName name="com.spring11.dto.Sample"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="com.spring11.dto.Store"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.spring11.vo.Maker"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+</qualifiedTypeNameHistroy>

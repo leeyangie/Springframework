@@ -1,0 +1,5 @@
+package com.spring11.test;
+
+public class TestAutowired {
+
+}

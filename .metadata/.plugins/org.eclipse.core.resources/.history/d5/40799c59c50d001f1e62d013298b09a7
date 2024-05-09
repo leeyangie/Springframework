@@ -1,0 +1,5 @@
+package com.spring11.controller;
+
+public class RestfulController {
+
+}

@@ -1,0 +1,7 @@
+package com.spring11.test;
+
+public class TestAutowired {
+
+	@Autowired
+	private SampleDAO sampleDAO;
+}

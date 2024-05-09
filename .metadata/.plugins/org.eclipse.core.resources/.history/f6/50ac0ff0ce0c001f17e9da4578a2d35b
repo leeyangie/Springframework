@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 빈객체 생성 -->	
+	<bean id="store1" class="com.spring1.dto.Store"></bean>
+	
+	<!-- Store store1 = new Store(); -->
+	
+	<!-- 생성자 주입 : All Argument -->
+	<bean id="store2" class="com.spring1.dto.Store">
+		<constructor-arg name="storeNum" value="1"></constructor-arg>
+		<constructor-arg name="storeName" value="Homeplus"></constructor-arg>
+	</bean>
+	
+	<!-- Store store2 = new Store(1, "Homeplus"); -->
+	
+	<!-- 생성자(Constructor) 주입 2 : All Argument - value -->
+	
+</beans>
+
+	

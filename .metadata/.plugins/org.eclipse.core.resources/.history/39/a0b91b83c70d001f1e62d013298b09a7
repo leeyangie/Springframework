@@ -1,0 +1,19 @@
+package com.spring11.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.spring11.dto.Store;
+
+@RestController
+public class RestfulController {
+	//응답은 json으로 
+	
+	@GetMapping("api1.do")
+	public Store getApi1() {
+		Store store = new Store(1, "Emart");
+		return store;
+		
+	}
+
+}
