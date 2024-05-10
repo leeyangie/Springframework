@@ -23,7 +23,11 @@
 		<li><a href="${path2 }/api3.do">api2 테스트 목록2</a></li>
 		<li><a href="${path2 }/api4.do">api2 테스트 목록2</a></li>
 		<li><a href="${path2 }/api5.do">api2 테스트 목록2</a></li>
-		
+		<li><a href="${path2 }/api/sub/api6">api6 테스트</a></li>
+		<li><a href="${path2 }/api/sub/api7">api7 테스트</a></li>
+		<li><a href="${path2 }/api/sub/api8">api8 테스트</a></li>
+		<li><a href="${path2 }/api/sub/api9">api9 테스트</a></li>
+		<li><a href="${path2 }/api/sub/api10">api10 테스트</a></li>
 	
 	</ul>
 </body>

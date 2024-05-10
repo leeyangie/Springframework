@@ -4,4 +4,5 @@
 <aop-project name="spring12"/>
 <aop-project name="spring13"/>
 <aop-project name="spring14"/>
+<aop-project name="spring15"/>
 </aop-reference-model>
